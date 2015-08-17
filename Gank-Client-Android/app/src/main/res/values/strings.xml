@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gank-Client-Android</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="girls">福利</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+    <string name="video">休息视频</string>
+    <string name="ext_res">扩展资源</string>
+    <string name="ui">前端</string>
+    <string name="all">All</string>
+    <string name="github">github</string>
+
+</resources>

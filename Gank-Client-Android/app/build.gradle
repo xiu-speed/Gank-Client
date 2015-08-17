@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
+
+    defaultConfig {
+        applicationId "speed.com.gank"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/android-support-v7-recyclerview.jar')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/xUtils-2.6.14.jar')
+    compile 'com.android.support:support-v4:22.2.0'
+    compile project(':vitamioBundle30')
+    compile 'com.github.chrisbanes.photoview:library:1.2.3'
+}

@@ -1,0 +1,12 @@
+<com.speed.gank.widget.RefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ui_swipe_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/ui_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</com.speed.gank.widget.RefreshLayout>

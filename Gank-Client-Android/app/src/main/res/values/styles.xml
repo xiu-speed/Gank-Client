@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme">
+    </style>
+
+
+
+    <style name="drawer_item_layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">@dimen/text_llarge</item>
+        <item name="android:padding">@dimen/large</item>
+        <item name="android:background">@drawable/drawer_item_bg</item>
+    </style>
+
+</resources>

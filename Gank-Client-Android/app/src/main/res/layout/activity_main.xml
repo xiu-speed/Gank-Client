@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/main_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <LinearLayout
+                android:id="@+id/drawer_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/drawer_android"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/android" />
+
+                <TextView
+                    android:id="@+id/drawer_ios"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/ios" />
+
+                <TextView
+                    android:id="@+id/drawer_girls"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/girls" />
+
+                <TextView
+                    android:id="@+id/drawer_vedio"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/video" />
+
+                <TextView
+                    android:id="@+id/drawer_ext"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/ext_res" />
+
+                <TextView
+                    android:id="@+id/drawer_ui"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/ui" />
+
+                <TextView
+                    android:id="@+id/drawer_all"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/all" />
+
+                <TextView
+                    android:id="@+id/github"
+                    style="@style/drawer_item_layout"
+                    android:text="@string/github" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.DrawerLayout>
+
+</RelativeLayout>
